@@ -281,10 +281,6 @@ function isStreamableHTTPConnection(
     return true;
   }
 
-  if ("type" in connection && connection.type === "streamable") {
-    return true;
-  }
-
   return false;
 }
 
